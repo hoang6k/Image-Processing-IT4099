@@ -35,6 +35,7 @@ def load_neg(path):
 
 
 if __name__ == "__main__":
+    np.random.seed(0)
     # train_pos_path = 'INRIAPerson/96X160H96/Train/pos/'
     # train_pos = load_pos(train_pos_path, 16)
     # np.save('train_pos.npy', train_pos)
